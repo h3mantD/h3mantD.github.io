@@ -7,6 +7,23 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<style>
+
+			.course {
+				position: absolute; 
+				top:2%; 
+				background-color: rgba(210, 105, 30, 0.192);
+				animation: mymove .5s infinite;	
+			}
+
+			@keyframes mymove {
+				from {background-color: rgba(210, 105, 30, 0.192);}
+				to {background-color: rgba(0, 0, 255, 0.267);}
+			}
+
+		</style>
+	
 	</head>
 	<body class="is-preload">
 
@@ -14,8 +31,8 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-				<div style="position: absolute; top:2%; ">
-					<button><a href="./courses/" target="_blank" rel="noopener noreferrer"> Check out our Crash Courses </a></button>	
+				<div class="course" style=" ">
+					<button><a href="./courses/" target="_blank" rel="noopener noreferrer" style="font-weight: bolder;"> Check out our Crash Courses </a></button>	
 				</div>
 				<br>
 					<header id="header">
